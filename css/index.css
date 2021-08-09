@@ -1,0 +1,125 @@
+/*这个文件里面放的是首页的css样式*/
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+    background-color: purple;
+}
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+}
+.arrow-r {
+    right: 0;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    margin: 0 3px;
+}
+.current {
+    background-color: #fff;
+}
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+.news-hd {
+    height: 32px;
+    border: 1px dotted #ccc;
+    font-size: 14px;
+    padding: 0 15px;
+    line-height: 32px;
+}
+.news-hd a {
+    float: right;
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+.news-bd li {
+    height: 23px;
+}
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+    display: block;
+    /*解决外边距引起的塌陷合并问题*/
+    overflow: hidden;
+    height: 100%;
+}
+.lifeservice li p {
+    text-align: center;
+}
+.hot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg) no-repeat;
+}
+.service_icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+    background: url(../img/icons.png) no-repeat;
+}
+.service_icon_huafei {
+    background-position: -17px -16px;
+}
+.service_icon_feiji {
+    width: 26px;
+    height: 26px;
+    background-position: -78px -16px;
+}
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+}
